@@ -1,0 +1,134 @@
+
+ :root{
+  font-family: 'family Lobster';
+  color: grey;
+}
+
+body{
+  height:100vh;
+  display:flex;
+}
+
+.container{
+  height: 406px;
+  width:  296px;
+  margin: auto;
+  padding: 15px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 25px 80px 48px 48px 48px 48px 48px;
+  grid-gap: 10px;
+  background: red;
+  border-radius: 20px;
+}
+
+.btns {
+  padding: 0;
+  border-radius: 20px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 45px;
+  vertical-align: middle;
+  text-decoration: none;
+  border-bottom: 3px solid #111;
+}
+
+.btns:active {
+  border: 0 solid black;
+}
+
+.digit{
+  background: grey;
+  color: black;
+}
+
+.digit:hover {
+  background:white;
+}
+.opp {
+  background: white;
+  color: black;
+}
+
+.opp:hover {
+  background: grey;
+}
+
+p.title{
+  grid-column: span 4;
+  text-align: center;
+  font-size: 18px;
+  padding-bottom: 12em;
+  vertical-align: text-top;
+  margin: 10px;
+  font-family: 'family Lobster';
+  color: white;
+  vertical-align: middle;
+}
+
+#screen{
+  background: linen;
+  grid-column: span 4;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+#equal {
+  grid-row: span 2;
+  line-height: 103px;
+  background: white;
+  color: black
+
+
+}
+
+#zero{
+  grid-column: span 2;
+}
+
+#AC{
+  background: white;
+  border-radius: 20px;
+  line-height: 45px;
+  vertical-align: middle;
+  text-align: center;
+  color: black
+}
+
+#CE{
+  background: white;
+  border-radius: 20px;
+  line-height: 45px;
+  vertical-align: middle;
+  text-align: center;
+  color: black;
+  border-bottom: 3px solid #111;
+}
+
+#AC:hover {
+  background: grey;
+    border-bottom: 3px solid #111;
+}
+
+#AC:active {
+  border: 0 solid black;
+  border-bottom: 3px solid #111;
+}
+
+#CE:active {
+  border: 0 solid black;
+  border-bottom: 3px solid #111;
+}
+
+#equal:active {
+  border: 0 solid black;
+  border-bottom: 3px solid #111;
+}
+
+#CE:hover {
+  background: grey;
+}
+
+#equal:hover {
+  background: grey;
+}
